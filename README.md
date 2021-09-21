@@ -1,22 +1,29 @@
+<p align="center">
+  <img src="https://deepsource.io/images/logo-wordmark-dark.svg" />
+</p>
+
+<p align="center">
+  <a href="https://deepsource.io/docs/">Documentation</a> |
+  <a href="https://deepsource.io/signup/">Get Started</a> |
+  <a href="https://discuss.deepsource.io/">Discuss</a>
+</p>
+
+<p align="center">
+  DeepSource helps you ship good quality code.
+</p>
+
+</p>
+
+---
 # Demo repository - PHP
 This repository demonstrates sample issues in PHP code raised by DeepSource.
 
-## Installation
+[![DeepSource](https://deepsource.io/gh/deepsourcelabs/demo-php.svg/?label=active+issues&show_trend=true&token=UI03VFJO_OePKTDB-3ukQB2K)](https://deepsource.io/gh/deepsourcelabs/demo-php/?ref=repository-badge)
 
-```sh
-git clone git@github.com:ishan-deepsource/php-dummy-app.git
-cd php-dummy-app
-composer install
-```
+### Report
 
-## Run PHP Codesniffer
+[https://deepsource.io/gh/deepsourcelabs/demo-php/issues/](https://deepsource.io/gh/deepsourcelabs/demo-php/issues/)
 
-```sh
-./vendor/bin/phpcs --standard=PSR12 src/
-```
+### Documentation
 
-## Run PHPStan checks
-
-```sh
-vendor/bin/phpstan analyse src
-```
+[https://deepsource.io/docs/analyzer/php](https://deepsource.io/docs/analyzer/php)
