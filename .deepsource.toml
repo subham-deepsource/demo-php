@@ -1,0 +1,15 @@
+version = 1
+
+test_patterns = ["tests/**"]
+
+[[analyzers]]
+name = "php"
+enabled = true
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[transformers]]
+name = "php-cs-fixer"
+enabled = true
