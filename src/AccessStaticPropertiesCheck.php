@@ -24,10 +24,10 @@ class AccessStaticPropertiesCheck
         return $greetings;
     }
 
-    public function parent(string $name): string
-    {
-        $greetings = sprintf('%s %s', parent::$message, $name); // $message is not static property
+    // public function parent(string $name): string
+    // {
+    //     $greetings = sprintf('%s %s', parent::$message, $name); // $message is not static property
 
-        return $greetings;
-    }
+    //     return $greetings;
+    // }
 }
