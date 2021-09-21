@@ -1,5 +1,5 @@
-# PHP Dummy App 
-A PHP application to experiment PHPStan rules
+# Demo repository - PHP
+This repository demonstrates sample issues in PHP code raised by DeepSource.
 
 ## Installation
 
