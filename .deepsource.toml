@@ -1,13 +1,16 @@
 version = 1
 
-test_patterns = ["tests/**"]
-
-[[analyzers]]
-name = "php"
-enabled = true
+exclude_patterns = [
+  "vendor/**",
+  "public/**"
+]
 
 [[analyzers]]
 name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "php"
 enabled = true
 
 [[transformers]]
