@@ -129,7 +129,7 @@ class Bar
 
         $array[] = 10;
         $array[][] = 10;
-        // $array[];
+        $array[];
         var_dump($array[]);
     }
 
