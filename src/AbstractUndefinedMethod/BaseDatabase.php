@@ -6,10 +6,10 @@ namespace App\AbstractUndefinedMethod;
 
 abstract class BaseDatabase
 {
-     public function backup():     void
+    public function backup(): void
     {
-            var_dump('in backup()');
+        var_dump('in backup()');
 
-             $this->_backup();
+        $this->_backup();
     }
 }
